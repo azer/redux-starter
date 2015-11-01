@@ -1,6 +1,6 @@
 {
   "name": "redux-starter",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Redux starter module for Kik",
   "main": "index.js",
   "keywords": [
