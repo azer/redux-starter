@@ -15,7 +15,7 @@
   "author": "azer",
   "license": "BSD",
   "dependencies": {
-    "kik-starter": "1.0.0",
+    "kik-starter": "1.0.*",
     "mix-objects": "0.0.3"
   }
 }
