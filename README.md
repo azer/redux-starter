@@ -9,13 +9,9 @@ Redux starter module for Kik. It comes with;
 
 ## Install
 
-```bash
-$ npm install redux-starter
-```
+Create your project with [kik](http://github.com/starters/kik) and choose `redux-starter` as one of your starters.
 
 ## Usage
-
-Create your project with [kik](http://github.com/starters/kik) and choose `redux-starter` as one of your starters.
 
 It'll setup you a simple but ready-to-go boilerplate, with following commands;
 

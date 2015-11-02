@@ -16,6 +16,6 @@
   "license": "BSD",
   "dependencies": {
     "kik-starter": "1.1.*",
-    "mix-objects": "0.0.3"
+    "new-struct": "^0.1.1"
   }
 }

@@ -2,7 +2,6 @@ var struct = require("new-struct");
 var path = require("path");
 var Starter = require("kik-starter");
 var fs = require("fs");
-var mix = require("mix-objects");
 var filesToRender = require('./to-render.json');
 
 var folder = path.join(__dirname, 'files');
