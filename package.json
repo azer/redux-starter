@@ -15,7 +15,7 @@
   "author": "azer",
   "license": "BSD",
   "dependencies": {
-    "kik-starter": "1.1.*",
+    "kik-starter": "^2.1.2",
     "new-struct": "^0.1.1"
   }
 }

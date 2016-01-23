@@ -1,4 +1,5 @@
-var struct = require("new-struct");
+"use strict"
+
 var path = require("path");
 var Starter = require("kik-starter");
 var fs = require("fs");
@@ -7,25 +8,18 @@ var filesToRender = require('./to-render.json');
 var folder = path.join(__dirname, 'files');
 var form = [];
 
-var ReduxStarter = struct(Starter, {
-  start: start
-});
+class ReduxStarter extends Starter {
+  constructor(project) {
+    super('redux', project, folder, form);
+  }
 
-module.exports = NewReduxStarter;
-
-function NewReduxStarter (project) {
-  return ReduxStarter({
-    name: 'redux',
-    project: project,
-    folder: folder,
-    form: form
-  });
+  start(callback) {
+    this.serial()
+      .run(this.copy)
+      .then(this.render, [filesToRender])
+      .then(this.rename, [{ 'components/main.js': 'components/{kik:slug}.js' }])
+      .done(callback);
+  }
 }
 
-function start (starter, callback) {
-  starter.serially()
-    .run(starter.copy, [folder])
-    .then(starter.render, [filesToRender])
-    .then(starter.rename, [{ 'components/main.js': 'components/{kik:slug}.js' }])
-    .done(callback);
-}
+module.exports = ReduxStarter;
