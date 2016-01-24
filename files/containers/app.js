@@ -1,14 +1,18 @@
-import { bindActionCreators } from 'redux';
+import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import * as actions from '../actions';
-import {kik:className} from '../components/{kik:slug}';
 
-export default connect(mapStateToProps, mapDispatchToProps)({kik:className});
-
-function mapStateToProps(state) {
-  return { example: state.example };
+class {kik:className} extends Component {
+  render() {
+    return (
+      <div>
+        Hello world
+      </div>
+    );
+  }
 }
 
-function mapDispatchToProps(dispatch) {
-  return bindActionCreators(actions, dispatch);
+export default connect(mapStateToProps)({kik:className});
+
+function mapStateToProps(state) {
+  return {};
 }

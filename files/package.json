@@ -7,14 +7,13 @@
     "react": "^0.14.1",
     "react-dom": "^0.14.1",
     "react-redux": "^4.0.0",
-    "redux": "^3.0.4",
-    "redux-thunk": "^1.0.0"
+    "redux": "^3.0.4"
   },
   "devDependencies": {
     "babelify": "^6.1.3",
     "browserify": "^12.0.1",
     "uglify-js": "^2.5.0",
-    "watchify": "^3.6.0"
+    "watchify": "^3.6.0"{kik:redux:optionalDependencies}
   },
   "scripts": {
     "build": "browserify index.js | uglifyjs -cm > public/bundle.js",
@@ -30,5 +29,6 @@
     "url": "{kik:remote}",
     "type": "git"
   },
-  "author": "{kik:github}"
+  "author": "{kik:github}",
+  "license": "WTFPL"
 }

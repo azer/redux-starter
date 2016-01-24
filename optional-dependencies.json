@@ -1,0 +1,5 @@
+{
+  "redux-thunk": "1.0.3",
+  "redux-simple-router": "2.0.4",
+  "react-router": "1.0.1"
+}

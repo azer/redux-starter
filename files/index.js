@@ -1,12 +1,14 @@
 import { render } from 'react-dom';
 import React from 'react';
 import { Provider } from 'react-redux';
-import App from './containers/app';
-import store from './store';
+import {kik:className} from './containers/{kik:slug}';
+import createStore from './store';
+
+const store = createStore();
 
 render(
-  <Provider store={store()}>
-    <App />
+  <Provider store={store}>
+    <{kik:className} />
   </Provider>,
   document.getElementById('{kik:slug}-root')
 );
