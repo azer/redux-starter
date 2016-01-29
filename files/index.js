@@ -11,4 +11,4 @@ render(
     <{kik:className} />
   </Provider>,
   document.getElementById('{kik:slug}-root')
-);
+)
