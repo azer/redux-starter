@@ -13,12 +13,16 @@
     "babelify": "^6.1.3",
     "browserify": "^12.0.1",
     "uglify-js": "^2.5.0",
-    "watchify": "^3.6.0"{kik:redux:optionalDependencies}
+    "watchify": "^3.6.0",
+    "standard": "latest",
+    "standard-format": "latest"{kik:redux:optionalDependencies}
   },
   "scripts": {
     "build": "browserify index.js | uglifyjs -cm > public/bundle.js",
     "watch": "watchify index.js -o public/bundle.js --debug --verbose",
-    "serve": "cd public && python -m SimpleHTTPServer 8765"
+    "serve": "cd public && python -m SimpleHTTPServer 8765",
+    "standard": "standard",
+    "format": "standard-format -w"
   },
   "browserify": {
     "transform": [

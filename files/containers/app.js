@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import { connect } from 'react-redux';
+import React, { Component } from 'react'
+import { connect } from 'react-redux'
 
 class {kik:className} extends Component {
   render() {
@@ -11,8 +11,8 @@ class {kik:className} extends Component {
   }
 }
 
-export default connect(mapStateToProps)({kik:className});
+export default connect(mapStateToProps)({kik:className})
 
 function mapStateToProps(state) {
-  return {};
+  return {}
 }
