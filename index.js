@@ -8,7 +8,7 @@ var optionalDependencies = require("./optional-dependencies.json");
 var folder = path.join(__dirname, 'files');
 var form = [
   { key: 'router', title: 'Need routing? (Yes/No?)', yesno: true },
-  { key: 'asyncStore', title: 'Sync store is default. Prefer async store? (Yes/No?)', yesno: true }
+  { key: 'asyncStore', title: 'Store is sync by default. Prefer async? (Yes/No?)', yesno: true }
 ];
 
 var render = [
@@ -21,7 +21,20 @@ var render = [
 
 class ReduxStarter extends Starter {
   constructor(project) {
-    super('redux', project, folder, form);
+    super(project);
+
+    this.name = 'redux';
+    this.project = project;
+    this.folder = folder;
+    this.form = form;
+    this.commands = [
+      'action',
+      'reducer',
+      'component',
+      'container',
+      'route',
+      'async-store'
+    ];
   }
 
   start(callback) {
