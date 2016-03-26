@@ -19,7 +19,7 @@ It'll setup you a simple but ready-to-go boilerplate, with following commands;
 * `npm run build`: Build for production.
 * `npm run serve`: Start serving the assets (under public/) on `localhost:8565`
 
-Commands for writing code:
+Commands for writing code: (this is not done yet)
 
 * `kik :action`: Add a new action.
 * `kik :reducer`: Add a new reducer.
