@@ -1,4 +1,4 @@
-var Project = require("kik");
+var Project = require("hek");
 var ReduxStarter = require("./");
 
 var yolo = new Project({

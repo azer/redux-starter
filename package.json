@@ -11,5 +11,8 @@
   "license": "BSD",
   "dependencies": {
     "starter": "hek/starter"
+  },
+  "devDependencies": {
+    "hek": "github:hek/hek"
   }
 }

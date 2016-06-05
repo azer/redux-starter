@@ -1,7 +1,7 @@
 "use strict"
 
 var path = require("path");
-var Starter = require("hek-starter");
+var Starter = require("starter");
 var fs = require("fs");
 var optionalDependencies = require("./optional-dependencies.json");
 
