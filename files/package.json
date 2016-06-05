@@ -1,7 +1,7 @@
 {
-  "name": "{kik:name}",
+  "name": "{hek:name}",
   "version": "1.0.0",
-  "description": "{kik:redux:desc}",
+  "description": "{hek:redux:desc}",
   "main": "index.js",
   "dependencies": {
     "react": "^0.14.1",
@@ -15,7 +15,7 @@
     "uglify-js": "^2.5.0",
     "watchify": "^3.6.0",
     "standard": "latest",
-    "standard-format": "latest"{kik:redux:optionalDependencies}
+    "standard-format": "latest"{hek:redux:optionalDependencies}
   },
   "scripts": {
     "build": "browserify index.js | uglifyjs -cm > public/bundle.js",
@@ -30,9 +30,9 @@
     ]
   },
   "repository": {
-    "url": "{kik:remote}",
+    "url": "{hek:remote}",
     "type": "git"
   },
-  "author": "{kik:github}",
+  "author": "{hek:github}",
   "license": "WTFPL"
 }

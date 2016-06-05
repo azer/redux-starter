@@ -1,12 +1,12 @@
-## {kik:name}
+## {hek:name}
 
-Created with [redux-starter](http://github.com/starters/redux-starter)
+Created with [redux-starter](http://github.com/hek/redux-starter)
 
 ## Install
 
 ```bash
-$ git clone {kik:remote}
-$ cd {kik:slug}
+$ git clone {hek:remote}
+$ cd {hek:slug}
 $ npm install
 ```
 
@@ -22,4 +22,4 @@ Links:
 
 * [Redux Manual](http://redux.js.org)
 * [ES6 Features](https://github.com/lukehoban/es6features)
-* [Kik](http://github.com/starters/kik)
+* [Hek](http://github.com/hek/hek)

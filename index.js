@@ -1,7 +1,7 @@
 "use strict"
 
 var path = require("path");
-var Starter = require("kik-starter");
+var Starter = require("hek-starter");
 var fs = require("fs");
 var optionalDependencies = require("./optional-dependencies.json");
 
@@ -38,7 +38,7 @@ class ReduxStarter extends Starter {
   }
 
   start(callback) {
-    var rename = { 'containers/app.js': 'containers/{kik:slug}.js' };
+    var rename = { 'containers/app.js': 'containers/{hek:slug}.js' };
     var remove = [];
     var dependencies = [];
 

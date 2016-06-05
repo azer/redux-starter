@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
 
-class {kik:className} extends Component {
+class {hek:className} extends Component {
   render () {
     return (
       <div>
@@ -11,7 +11,7 @@ class {kik:className} extends Component {
   }
 }
 
-export default connect(mapStateToProps)({kik:className})
+export default connect(mapStateToProps)({hek:className})
 
 function mapStateToProps (state) {
   return {}

@@ -1,10 +1,9 @@
-var kik = require('kik');
+var Project = require('hek');
 var redux = require("./");
 
-var myproject = kik({
+var myproject = new Project({
   name: 'yolo',
   folder: '/tmp/yolo',
-  //starters: [{ module: require('./'), subfolder: 'ui' }],
   starters:[require('./')],
   remote: 'azer/yolo',
   context: {

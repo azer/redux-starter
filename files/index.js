@@ -1,14 +1,14 @@
 import { render } from 'react-dom'
 import React from 'react'
 import { Provider } from 'react-redux'
-import {kik:className} from './containers/{kik:slug}'
+import {hek:className} from './containers/{hek:slug}'
 import createStore from './store'
 
 const store = createStore()
 
 render(
   <Provider store={store}>
-    <{kik:className} />
+    <{hek:className} />
   </Provider>,
-  document.getElementById('{kik:slug}-root')
+  document.getElementById('{hek:slug}-root')
 )
